@@ -22,35 +22,6 @@ header h1 {
 }
 
 
-#pesquisa {
-    display: flex;             
-    align-items: center;       
-    gap: 5px;                  
-    width: 100%;               
-}
-
-
-/* Faz o input preencher o espaço */
-#pesquisa input[type="text"] {
-    flex-grow: 1;              
-    padding: 10px;
-    border: 1px solid #e0d4b7; 
-    border-radius: 9px;
-    background-color: #222;    
-    color: #e0d4b7;            
-}
-
-/* Estiliza o botão */
-#butao button {
-    padding: 2px 12px;
-    background-color: #c5a45d; 
-    color: #000;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 16px;
-    height: 40px; 
-}
 
 /* Apenas um CSS extra para a lista da NAV ficar horizontal */
 nav ul {
