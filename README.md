@@ -23,9 +23,6 @@ Html5,CSS
 Uso apenas de internet e qualquer aparelho tecnologico da atualidade.
 
 # Lista dos membros do grupo e GitHub usernames.
-
-
-
-
+Allan, Miguel, Italo e Miguel.
 
 
