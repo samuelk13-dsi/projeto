@@ -63,11 +63,23 @@ main img{
 main h3{
 position: absolute;
 top: 290px;
-left: 60px;
+left: 70px;
 width: 520px;
 font-size: 18px;
+font-family: 'Times New Roman', Times, serif;
 }
 
-h3 ::first-letter{
-  font-size: 24em;
+h3::first-letter{
+  font-size: 30px;
+  color: #c0a66f;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+main img {
+  width: 450px;
+  height: 550px;
+  position: absolute;
+  top: 290px;
+  left: 750px;
+  border-radius: 12px;
 }
