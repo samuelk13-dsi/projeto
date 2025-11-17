@@ -22,12 +22,7 @@ Html5,CSS
 
 Uso apenas de internet e qualquer aparelho tecnologico da atualidade.
 
-# Arquivos
-<img src="/Imagens/img readme/Captura de tela 2025-11-13 234934.png/>
-
-<img src="/Imagens/img readme/Captura de tela 2025-11-13 235353.png/>
-
-
-
+# Lista dos membros do grupo e GitHub usernames.
+Allan, Miguel, Italo e Miguel.
 
 
