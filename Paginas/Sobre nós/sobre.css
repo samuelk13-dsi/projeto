@@ -73,19 +73,15 @@ h3::first-letter{
 }
 
 img {
-  width: 450px;
-  height: 550px;
-  position: absolute;
-  top: 290px;
-  left: 750px;
-  border-radius: 12px;
+  width: 1005;
+  height: 100%;
+ 
 }
 
 footer{
-  position: absolute;
-  top: 0;
   text-align: center;
-   position: static;
+  padding: 1rem 2rem;
   background-color: #000;
+  color:#c5a45d ;
  
 }
