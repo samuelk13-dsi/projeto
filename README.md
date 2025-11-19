@@ -16,7 +16,7 @@ Layout responsivo para desktop e mobile
 # Tecnologia Utilizadas
 
 Front-end:
-Html5,CSS
+Html5,CSS3, js
 
 # Pré requesitos 
 
