@@ -96,7 +96,7 @@ nav a.active {
   margin: 0.8rem 0 0.3rem;
 }
 
-/* 🔸 centraliza o texto no meio da imagem */
+/* centraliza o texto no meio da imagem */
 .texto-sobre {
   position: absolute;
   top: 100%;
@@ -147,6 +147,20 @@ section img{
   height: 100%;
 }
 
+.destaque {
+    font-size: 42px;
+    text-align: center;
+    color: #d9c4a3;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-top: 40px;
+    margin-bottom: 25px;
+    font-family: 'Georgia', serif;
+    text-shadow: 0px 0px 6px rgba(217, 196, 163, 0.3);
+}
+
+
 .produtos {
   display: grid;
   grid-template-columns: repeat(3, 1fr); /* 3 produtos por linha */
@@ -177,6 +191,12 @@ section img{
   height: auto;
   border-radius: 10px;
   margin-bottom: 10px;
+}
+.produto img {
+    width: 100%;
+    aspect-ratio: 3 / 4; /* formato vertical de terno */
+    object-fit: cover;
+    border-radius: 12px;
 }
 
 /* Imagem extra no meio */
@@ -209,13 +229,163 @@ section img{
   font-size: 16px;
 }
 
-footer {
-  background: #000;
-  color: #c5a45d;
-  text-align: center;
-  padding: 1rem;
-  margin-top: 2rem;
+body {
+    margin: 0;
+    padding: 0;
+    background: #0f0f0f;
+    font-family: "Georgia", serif;
 }
+
+.login-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-box {
+    background: #1a1a1a;
+    padding: 40px;
+    width: 350px;
+    border-radius: 12px;
+    box-shadow: 0 0 25px rgba(255, 208, 135, 0.15);
+    text-align: center;
+}
+
+.login-box h2 {
+    color: #e6d3b5;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.subtitulo {
+    color: #cbb79a;
+    margin-bottom: 25px;
+}
+
+label {
+    display: block;
+    text-align: left;
+    color: #d5c4a1;
+    margin: 10px 0 5px;
+    font-size: 14px;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    outline: none;
+    margin-bottom: 20px;
+    background: #2b2b2b;
+    color: #e6d3b5;
+    font-size: 15px;
+}
+
+input::placeholder {
+    color: #8f7f69;
+}
+
+.btn-login {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    background: #d5b276;
+    color: #1a1a1a;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-login:hover {
+    background: #e5c58f;
+}
+
+.criar-conta {
+    margin-top: 15px;
+    color: #bfae91;
+}
+
+.criar-conta a {
+    color: #d5b276;
+    text-decoration: none;
+}
+
+.criar-conta a:hover {
+    text-decoration: underline;
+}
+
+
+.rodape {
+    background: #0f0f0f;
+    padding: 50px 20px 20px;
+    color: #d5c4a1;
+    font-family: "Georgia", serif;
+}
+
+.rodape-conteudo {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 40px;
+    max-width: 1300px;
+    margin: auto;
+}
+
+.rodape-coluna h3,
+.rodape-coluna h4 {
+    color: #e8d7b8;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.rodape-coluna p {
+    color: #c5b69c;
+    line-height: 1.6;
+}
+
+.rodape-coluna ul {
+    list-style: none;
+    padding: 0;
+}
+
+.rodape-coluna ul li {
+    margin-bottom: 10px;
+}
+
+.rodape-coluna ul li a {
+    color: #c5b69c;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.rodape-coluna ul li a:hover {
+    color: #e8d7b8;
+}
+
+.social a {
+    display: block;
+    margin-bottom: 8px;
+    color: #d5c4a1;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.social a:hover {
+    color: #f2dfc4;
+}
+
+.rodape-direitos {
+    text-align: center;
+    margin-top: 40px;
+    border-top: 1px solid #3b3b3b;
+    padding-top: 15px;
+    color: #b8a78c;
+    font-size: 14px;
+}
+
 
 
 /* Responsivo */
